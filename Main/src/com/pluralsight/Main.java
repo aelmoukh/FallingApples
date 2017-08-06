@@ -1,7 +1,6 @@
 package com.pluralsight;
 
 import com.pluralsight.fruit.Apple;
-import com.pluralsight.fruit.Banana;
 import com.pluralsight.fruit.IFruit;
 import com.pluralsight.fruit.Tree;
 import com.pluralsight.toolbox.MeasuringTape;
@@ -32,6 +31,10 @@ class Main {
     }
 
     private static void dropAllTheFruit(Tree tree) {
+
+        if (tree == null) {
+
+        }
 
         MeasuringTape measuringTape = MeasuringTape.createMeasuringTape();
 
